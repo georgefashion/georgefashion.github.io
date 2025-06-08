@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Fashion - Moda y Perfumes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+                
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="george.jpeg" alt="George Fashion Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#seccion1">Mujer</a></li>
+                    <li><a href="#seccion1">Hombre</a></li>
+                    <li><a href="#seccion1">Perfumes</a></li>
+                    <li><a href="#seccion1">Ofertas</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=+543872140209&text=Hola!%20Me%20a%20Interesa%20el%20Producto%20:%20">Contacto</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <!-- Banner Deslizante -->
+                    <div class="announcement-bar" id="announcementBar">
+                        <div class="announcement-content">
+                            <span>
+                                <i class="fas fa-truck announcement-icon"></i>
+                                🚚 ¡Envíos gratis en compras superiores a $50000! 
+                                <i class="fas fa-gift announcement-icon"></i>
+                                🎁 Descuento del 10% en tu primera compra 
+                                <i class="fas fa-perfume announcement-icon"></i>
+                                💖 ¡Nueva colección de perfumes disponible!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="top-bar">
+            <div class="container">
+                
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=+543872140209&text=Hola!%20Me%20a%20Interesa%20el%20Producto%20:%20"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>COLECCIÓN OTOÑO 2025</h2>
+            <h1>ESTILO QUE INSPIRA</h1>
+            <p>Descubre nuestra nueva colección de prendas y fragancias exclusivas</p>
+            <a href="#seccion1" class="btn">Ver Colección</a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories container">
+        <div id="ropaMujer" class="category">
+            <img src="ropamujer.jpg" alt="Ropa Mujer">
+            <div class="category-content">
+                <h3>ROPA MUJER</h3>
+                <a href="#seccion1">Ver Colección <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="category">
+            <img src="ropahombre.jpg" alt="Ropa Hombre">
+            <div class="category-content">
+                <h3>ROPA HOMBRE</h3>
+                <a href="#seccion1">Ver Colección <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="category">
+            <img src="perfume.jpg" alt="Perfumes">
+            <div class="category-content">
+                <h3>PERFUMES</h3>
+                <a href="#seccion1">Ver Colección <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="seccion1"class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2>PRODUCTOS DESTACADOS</h2>
+                <p>Las últimas tendencias en moda y fragancias</p>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="vestidoelegante.jpg" alt="Vestido Elegante">
+                        <div class="product-badge">Nuevo</div>
+                        <div class="product-actions">
+                            <button><i class="fas fa-heart"></i></button>
+                            
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vestido Elegante</h3>
+                        <p class="product-category">Mujer - Vestidos</p>
+                        <div class="product-price">
+                            <span class="price">$89000.99</span>
+                            <span class="old-price">$120000.00</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color color-1"></span>
+                            <span class="color color-2"></span>
+                            <span class="color color-3"></span>
+                            <a href="https://api.whatsapp.com/send?phone=+543872140209&text=Hola!%20Me%20a%20Interesa%20el%20Producto%20:%20Vestido%20elegante%20" class="style-btn-compra">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="perfume.jpg" alt="Perfume Exclusivo">
+                        <div class="product-badge sale">-25%</div>
+                        <div class="product-actions">
+                            <button><i class="fas fa-heart"></i></button>
+                            
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Fragancia Élite</h3>
+                        <p class="product-category">Perfume - Mujer</p>
+                        <div class="product-price">
+                            <span class="price">$78999.99</span>
+                            <span class="old-price">$110099.00</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color color-4"></span>
+                            <a href="https://api.whatsapp.com/send?phone=+543872140209&text=Hola!%20Me%20a%20Interesa%20el%20Producto%20:%20Fragancia%20Elite%20,%20quiero%20más%20info%20." class="style-btn-compra">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="campera cuero.jpg" alt="Chaqueta de Cuero">
+                        <div class="product-actions">
+                            <button><i class="fas fa-heart"></i></button>
+                            
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chaqueta de Cuero</h3>
+                        <p class="product-category">Hombre - Abrigos</p>
+                        <div class="product-price">
+                            <span class="price">$ 90999.99</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color color-5"></span>
+                            <span class="color color-6"></span>
+                            <a href="https://api.whatsapp.com/send?phone=+543872140209&text=Hola!%20Me%20a%20Interesa%20el%20Producto%20:%20Chaqueta%20de%20cuero%20,%20quiero%20más%20info%20." class="style-btn-compra">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="jeansmujer.jpg" alt="Blusa de Seda">
+                        <div class="product-badge">Nuevo</div>
+                        <div class="product-actions">
+                            <button><i class="fas fa-heart"></i></button>
+                            
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Jeans Mujer</h3>
+                        <p class="product-category">Mujer - Jeans</p>
+                        <div class="product-price">
+                            <span class="price">$ 20999.99</span>
+                        </div>
+                        <div class="product-colors">
+                            <span class="color color-7"></span>
+                            <span class="color color-8"></span>
+                            <span class="color color-9"></span>
+                            <a href="https://api.whatsapp.com/send?phone=+543872140209&text=Hola!%20Me%20a%20Interesa%20el%20Producto%20:%20Jeans%20Mujer%20,%20quiero%20más%20info%20." class="style-btn-compra">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Recomendaciones de Estilo -->
+    <section class="style-recommendations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Inspiración de Estilo</h2>
+                <p>Descubre looks perfectos para cada ocasión con nuestras recomendaciones de moda</p>
+            </div>
+            
+            <div class="style-grid">
+                <!-- Look para Mujer -->
+                <div class="style-card">
+                    <div class="style-image">
+                        <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Estilo Urbano Masculino">
+                        <div class="style-overlay">
+                            <h3>Estilo Urbano Femenino</h3>
+                            <p>Moderno y versátil para el día a día</p>
+                        </div>
+                    </div>
+                    <div class="style-content">
+                        <div class="style-tags">
+                            <span class="style-tag">Camisas</span>
+                            <span class="style-tag">Jeans</span>
+                            <span class="style-tag">Zapatos</span>
+                        </div>
+                        <p class="style-description">Camisas de algodón con jeans ajustados y zapatos casuales. Agrega una chaqueta de mezclilla para días más frescos. Ideal para reuniones informales y salidas con amigos.</p>
+                        <div class="style-actions">
+                            <a href="seccion1" class="style-btn primary-btn">Ver Colección</a>                            
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Perfumes -->
+                <div class="style-card">
+                    <div class="style-image">
+                        <img src="perfume.jpg" alt="Fragrancias Esenciales">
+                        <div class="style-overlay">
+                            <h3>Fragrancias Esenciales</h3>
+                            <p>La esencia perfecta para cada personalidad</p>
+                        </div>
+                    </div>
+                    <div class="style-content">
+                        <div class="style-tags">
+                            <span class="style-tag">Femeninas</span>
+                            <span class="style-tag">Masculinas</span>
+                            <span class="style-tag">Unisex</span>
+                        </div>
+                        <p class="style-description">Descubre nuestra colección de fragancias premium. Desde notas frescas y cítricas hasta aromas intensos y amaderados. Encuentra tu firma olfativa para cada ocasión.</p>
+                        <div class="style-actions">
+                            <a href="#seccion1" class="style-btn secondary-btn">Ver</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="george.png" alt="George Fashion Logo">
+                    </div>
+                    <p>Tu destino para moda de calidad y fragancias exclusivas. Encuentra tu estilo único con nosotros.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Nuestros Productos</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Categorías</h3>
+                    <ul>
+                        <li><a href="#">Ropa de Mujer</a></li>
+                        <li><a href="#">Ropa de Hombre</a></li>
+                        <li><a href="#">Perfumes Mujer</a></li>
+                        <li><a href="#">Perfumes Hombre</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. San Martin, 123, Salta</li>
+                        <li><i class="fas fa-phone"></i> +54 9 3872140209</li>
+                        <li><i class="fas fa-envelope"></i> info@georgefashion.com</li>
+                        <li><i class="fas fa-clock"></i> Lunes a Viernes: 9:00 - 20:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 George Fashion. Todos los derechos reservados.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-mercadopago"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
